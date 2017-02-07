@@ -11,13 +11,20 @@ module Otomat
     }
     end
 
-    def urun_sor
-      puts @otomat
+    def urun_liste
+      puts "Ürün listesi:"
+      @otomat.each { |urun| puts urun	}
+    end
 
+  end
+
+  class Menu
+    def urun_sec
+      #menu seçimini yap
     end
 
     def urun_ver
-
+      #urunu ver, kalan parayı ver
     end
 
   end

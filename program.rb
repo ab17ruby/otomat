@@ -1,6 +1,7 @@
 require './lib/urunler'
 
 program = Otomat::Urunler.new
-program.urun_sor
-program.urun_ver
-puts "PLACE HOLDER"
+program.urun_liste
+puts "Para girişi yapın:"
+
+menu = Otomat::Menu.new
